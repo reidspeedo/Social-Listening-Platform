@@ -10,7 +10,7 @@ A social media monitoring tool that aggregates posts from multiple platforms (Re
 - **Real-time monitoring** with configurable intervals
 
 ## Architecture
-
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              SOCIAL LISTENER                                |
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -66,7 +66,7 @@ A social media monitoring tool that aggregates posts from multiple platforms (Re
 │  │  │              (via Resend API)                                       │|│
 │  │  └─────────────────────────────────────────────────────────────────────┘|│
 │  └─────────────────────────────────────────────────────────────────────────┘│
-
+```
 ## How it works
 
 1. **API Endpoints** - FastAPI routes handle requests to scan different platforms
